@@ -1,0 +1,46 @@
+.size{
+  length: 900px;
+  width: 650px;
+}
+
+#links a{
+  color: yellow;
+}
+  a:visited{
+    color: #A53860;
+  }
+  a:hover{
+    color:#03CEA4;
+    background-color:#493B2A;
+  }
+  @keyframes invertFilter{
+    from {
+        filter: invert(0%);
+    }
+
+    to {
+        filter: invert(100%);
+    }
+}
+
+img#Fall {
+    animation: invertFilter 2s forwards;
+}
+
+
+table{
+   margin: 15px 15px 15px 15px;
+}
+
+span{
+  font-style: bold;
+  color: #F3CA40
+}
+
+p{
+  color: #F08A4B;
+}
+
+.visible{
+  opacity:0.5;
+}
